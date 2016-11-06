@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Jakub Janas' Assignment 2 for CS15020</title>
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic%7CRubik+Mono+One" rel="stylesheet" type="text/css" />	
+	
+	<script type="text/javascript" src="welcome.js"></script>
+</head>
+
+<body>
+	<section id="container">
+		<header>
+			<img class="pic" src="husaria_rozalski.jpg" alt="Husaria - Jakub Różalski" />
+			<a href="index.html">Jakub Janas - personal website</a>
+		</header>
+		
+		<nav>
+			<ul>
+				<li style="background-color: #CD3838;"><a href="index.html">Home</a><br /></li>
+				<li><a href="about.html">About</a><br /></li>
+				<li><a href="cv.html">Curriculum vitae</a><br /></li>
+				<li><a href="../wordpress/" target="_blank">Wordpress</a></li>
+				<li><a href="../webshop/catalog/" target="_blank">osCommerce</a></li>
+			</ul>
+			</nav>
+			
+		<article>
+				
+			<section id="welcome">
+				<h1>Welcome to my site!</h1>
+				What's your name?<br /><br />
+				<input type="text" id="name" />
+				<input type="submit" value="is my name!" onclick="welcomeByName()" />
+			</section>
+			
+			<br />------------------------------------------------------------<br />
+			I declare that the contents of this site are entirely my own work, except for:<br />
+			- the picture at the top of my page (credits to <a href="https://www.facebook.com/Kubasa?fref=ts" target="_blank">Jakub Różalski</a>)<br />
+			- some javascript code that I got from the website <a href="http://www.w3schools.com/" target="_blank">w3schools.com</a>
+			
+			<section style="float: bottom;">
+				<br />Last modified: 
+				<script type="text/javascript">
+					var dateModified = new Date (document.lastModified);
+					dateModified.toLocaleString();
+					document.write(dateModified);
+				</script>
+			</section>
+		</article>
+
+		<footer>
+			The information provided on this and other pages by me, Jakub Janas (jaj48@aber.ac.uk), is under my own personal responsibility and not that of Aberystwyth University.  Similarly,any opinions expressed are my own and are in no way to be taken as those of A.U.<br />
+			<a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="files/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="files/valid-css3.gif" alt="Valid CSS 3.0!" height="31" width="88" /></a>
+		</footer>
+	</section>
+</body>
+</html>

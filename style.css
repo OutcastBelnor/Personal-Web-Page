@@ -1,0 +1,118 @@
+body
+{
+	background-color: #F6F6F6;
+	font-family: 'Ubuntu Mono';
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: justify;
+}
+
+#container
+{
+	width: 1000px;
+	background-color: #AB1616;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+header
+{
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Rubik Mono One', sans-serif;
+	height: auto;
+	font-size: 35px;
+}
+
+header > a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.pic
+{
+	width: 1000px;
+	padding-top: 0;
+}
+
+nav
+{
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+	background-color: #ffffff;
+	float: left;
+	margin-right: 5px;
+	border-radius: 6px;
+}
+
+ul
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: auto;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ul > li:first-child
+{
+	border-top: 1px dashed #751b1b;
+}
+
+ul > li
+{
+	width: 150px;
+	height: 40px;
+	border-bottom: 1px dashed #751b1b;
+}
+
+ul > li:hover
+{
+	background-color: #ef4a4a;
+}
+
+ul a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+article
+{
+	width: 800px;
+	min-height: 300px;
+	border-radius: 6px;
+	margin-left: 5px;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+	float: left;
+	padding: 10px;
+}
+
+table, th, td
+{
+	border: 1px dashed #000000;
+    border-collapse: collapse;
+}
+
+footer
+{
+	clear: both;
+	margin-top: 5px;
+	font-size: 10px;
+	text-align: center;
+	border-radius: 6px;
+	background-color: #ffffff;
+	padding: 1px;
+}
