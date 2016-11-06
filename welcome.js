@@ -25,11 +25,5 @@ function welcomeByName()
 			document.getElementById("welcome").innerHTML = 
 				"<h1>Good evening " + name + "!</h1><br />Make yourself comfortable!";
 		}
-
-		if (name == "Agatka" || name == "Agata")
-		{
-			document.getElementById("welcome").innerHTML = 
-			"<h1>Welcome " + name + "!</h1><br />KOCHAM CIĘ ;*";
-		}
 	}
 }
